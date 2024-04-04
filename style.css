@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/721/613/desktop-wallpaper-abstract-login-page.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+form{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    color: white;
+}
+
+form #regis{
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    width:  600px;
+    height: 500px;
+    box-shadow: rgba(12, 12, 12, 0.35) 15px 17px 20px;
+}
+
+#regis{
+    position: relative;
+    right: 20px;
+    padding-top: 7vh;
+    padding-left: 22vh;
+    text-align: left;
+}
+
+#regis #Name{
+    padding: 2vh;
+}
+
+#regis #Surname{
+    padding: 2vh;
+}
+
+#regis #Email{
+    padding: 2vh;
+}
+
+input{
+    border: none;
+    height: 5vh;
+    width: 40vh;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+::placeholder{
+    padding-left: 10px;
+    color: rgb(41, 40, 40);
+    text-shadow: none;
+}
+
+button{
+    margin: 3vh;
+    height: 5vh;
+    width: 20vh;
+    border-radius: 10px;
+    background-color: rgb(5, 168, 5);
+    border: none;
+    color: white;
+    font-size: 2.5vh;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h5{
+    padding: 1vh;
+    font-size: 2.6vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    padding: 0.5vh;
+    font-size: 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h1{
+    position: relative;
+    left: 43vh;
+    top: 2vh;
+    color: whiet;
+    text-shadow: 2px 2px 3px #0f0f0f;
+}
+
+@media screen and (max-width: 600px)
+{
+    body{
+        background-image: url(https://e1.pxfuel.com/desktop-wallpaper/721/613/desktop-wallpaper-abstract-login-page.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        min-height: 100%;
+        min-width: 100%;
+
+    }
+
+    form #regis{
+        position: relative;
+        right: 7vh;
+        min-width: 49vh;
+        min-height: 94vh;
+   } 
+
+   #regis{
+    padding-top: 14vh;
+    padding-left: 2vh;
+    text-align: left;
+   }
+
+   h1{
+    position: relative;
+    left: 24vh;
+   }
+
+   button{
+    margin: 4vh;
+   }
+}
+
+@media screen{
+    form{
+        min-width: 49vh;
+        min-height: 94vh; 
+    }
+
+}
