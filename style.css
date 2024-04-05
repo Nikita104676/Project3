@@ -37,36 +37,23 @@ form #regis{
     text-align: left;
 }
 
-#regis #Name{
-    padding: 2vh;
-}
-
-#regis #Surname{
-    padding: 2vh;
-}
-
-#regis #Email{
-    padding: 2vh;
-}
-
 input{
     border: none;
     height: 5vh;
     width: 40vh;
     border-radius: 10px;
-    text-shadow: 2px 2px 4px #000000;
 }
 
 ::placeholder{
     padding-left: 10px;
-    color: rgb(41, 40, 40);
+    color: rgb(133, 132, 132);
     text-shadow: none;
 }
 
 button{
     margin: 3vh;
     height: 5vh;
-    width: 20vh;
+    width: 17vh;
     border-radius: 10px;
     background-color: rgb(5, 168, 5);
     border: none;
@@ -84,14 +71,6 @@ h5{
     padding: 1vh;
     font-size: 2.6vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-p{
-    padding: 0.5vh;
-    font-size: 2vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
 }
 
 h1{
@@ -140,7 +119,7 @@ h1{
 @media screen{
     form{
         min-width: 49vh;
-        min-height: 94vh; 
+        min-height: 89vh; 
     }
 
 }
